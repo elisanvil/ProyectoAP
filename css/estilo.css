@@ -9,12 +9,6 @@
 	padding-bottom: 25px;
 }
 
-body {
-	background-image: url("http://www.freejpg.com.ar/asset/900/19/194b/F100007799.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	position: fixed;
-}
 
 .container{
 	width: 100%!important;
@@ -38,10 +32,7 @@ body {
 	margin-top: 10px;
 	font-size: 1.5em;
 
-
 }
-
-
 
 .navbar, .navbar-nav{
 	float: none;
@@ -62,9 +53,28 @@ li{
 }
 
 
+.content-section {
+	background-image: url("http://www.freejpg.com.ar/asset/900/19/194b/F100007799.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: fixed;
+	width: 100%;
+	
+}
+
+.content-block{
+	max-width: 1024px;
+	margin: auto;
+}
+
+
 footer {
-	position: bottom;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	background-color: white;
 	opacity: 0.5;
 	text-align: center;
+	
 }

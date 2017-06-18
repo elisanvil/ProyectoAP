@@ -1,36 +1,17 @@
-.content_section{
-	background-image: url("https://static1.squarespace.com/static/5148aa1de4b016fef442df9a/t/55a788b3e4b041fdc0652aca/1437042869586/July+CURRENTLY+filled+out+in+The+Happy+Planner%E2%84%A2+of+mambi+Design+Team+member+Candi+Billman+%7C+me+%26+my+Big+ideas?format=1000w");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.content-block{
-	background-color: transparent;
-	max-width: 1024px;
-}
-
-
 .hidden-img, .right-img{
 	width: 100%;
 	height: 192px;
-	/*vertical-align: middle;*/
+	
 }
 
-.content-block{
-	margin: 2% auto;
+.content{
+	padding-top: 15px;
 }
-
 .postTitle,.postImages{
 	padding: 0;
-	/*position: relative;
-	vertical-align: top;*/
+	
 }
 
-.postList{
-	/*vertical-align: top;
-	position: relative;
-	/*overflow: hidden;*/
-}
 
 /*resuelto el problema del espacio superior*/
 .postDate{
@@ -64,7 +45,7 @@ span{
 .img-wrapper, .caption{
 	width: 100%!important;
 	height: 100%;
-	/*z-index: 2;*/
-}
+	/*z-index: 2;
+}*/
 
 
