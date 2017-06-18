@@ -7,6 +7,13 @@
 	border-radius: 0!important;
 }
 
+body {
+	background-image: url("http://www.freejpg.com.ar/asset/900/19/194b/F100007799.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: fixed;
+}
+
 .container{
 	width: 100%!important;
 	padding: 0;
@@ -27,6 +34,8 @@
 .jumbotron h2{
 	margin-top: 10px;
 	font-size: 1.5em;
+
+
 }
 
 
@@ -46,3 +55,10 @@ li{
 	width: 16.6%;
 }
 
+
+footer {
+	position: bottom;
+	background-color: white;
+	opacity: 0.5;
+	text-align: center;
+}
