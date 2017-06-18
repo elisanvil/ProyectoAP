@@ -1,10 +1,12 @@
 .jumbotron {
 	background-color: #000000;
 	color: #F8F8FF;
-	height: 18vh;
+	height: 16vh;
 	text-align: center;
 	margin-bottom: 0;
 	border-radius: 0!important;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 body {
@@ -19,9 +21,10 @@ body {
 	padding: 0;
 }
 
+/*dimensiona visualmente al menu*/
 .menu{
 	padding: 0;
-	width: 90%!important;
+	width: 80%!important;
 }
 
 
@@ -43,10 +46,13 @@ body {
 .navbar, .navbar-nav{
 	float: none;
 	vertical-align: top;
+	text-align: center!important;
+	margin: 0!important;
+	border: 0!important;
 }
 
 .navbar, .navbar-collapse{
-	text-align: center!important;
+	
 }
 
 
