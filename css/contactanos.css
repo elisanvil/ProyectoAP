@@ -1,0 +1,43 @@
+.containerc {
+
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+
+.well-sm {
+	background-color: #FFF;
+}
+
+.form-horizontal {
+	background-color: #FFF;
+}
+
+fieldset {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-primary {
+	background-color: #000000 !important;
+	color: #FFFFFF !important;
+	width: 60%;
+}
+
+#cajainterna {
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#infoc {
+	text-align: center;
+	color: white;
+}
+
+#infoc h3 {
+	margin-top: 0;
+}
