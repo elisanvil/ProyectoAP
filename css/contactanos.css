@@ -1,5 +1,4 @@
 .containerc {
-
 	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
@@ -7,37 +6,58 @@
 
 }
 
-
-.well-sm {
-	background-color: #FFF;
+/*.col-md-12 {
+	background-color: black;
 }
 
 .form-horizontal {
-	background-color: #FFF;
+	background-color: black;
+}*/
+
+.well-sm {
+	background-color: #fff;
 }
 
-fieldset {
-	margin-left: auto;
-	margin-right: auto;
+fieldset.content-block {
+	background-color: #fff;
 }
 
 .btn-primary {
 	background-color: #000000 !important;
 	color: #FFFFFF !important;
 	width: 60%;
+	border-color: #000000 !important;
 }
 
 #cajainterna {
-
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#infoc {
-	text-align: center;
-	color: white;
+#infoc p {
+	margin: 0;
+	padding:0;
 }
 
-#infoc h3 {
-	margin-top: 0;
+#cajainterna {
+	font-family: 'Narkisim';
+	text-align: center;
+	color: #000;
+}
+
+.content-block{
+	max-width: 900px;
+	margin: auto;
+	padding: 20px;
+	background-color: #fff;
+}
+
+/*span.col-md-offset-2 {
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.form-group #enviar {
+	margin-left: auto;
+	margin-right: auto;
 }
