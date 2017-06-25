@@ -84,13 +84,14 @@ footer {
 	font-family: 'Narkisim';
 	color: #000;
 	font-size: 1.2em;
-	padding: 10px 0;
+	padding: 2px 0;
+	z-index: 10000;
 }
 
 footer a {
   color: #000;
   font-size: 20px;
-  padding: 10px;
+  padding: 5px 10px;
   transition: all .5s ease;
 }
 

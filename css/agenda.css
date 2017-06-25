@@ -1,6 +1,6 @@
 .hidden-img, .right-img{
 	width: 100%;
-	height: 192px;
+	height: 150px;
 	
 }
 
@@ -35,8 +35,9 @@
 	font-family: 'Narkisim';
 }
 
-.content-section {
+.content-section {         /*content-section de estilo.css*/
 	font-family: 'Narkisim';
+	letter-spacing: 2px;
 }
 
 .caption span{
@@ -47,24 +48,29 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 192px;
+	height: 150px;
 	z-index: 999;
 	font-family: 'Narkisim';
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	
 }
 
 .img-wrapper{
 	overflow: hidden;
 	position: relative;
 	left: 0;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 1s ease;
 	
 }
-
+/*
 .img-wrapper .caption{
 	width: 100%!important;
-	height: 100%!important;
-	/*z-index: 2;*/
-	
-}
+		
+}*/
 
 .caption a{
 	color: #fff;
@@ -76,8 +82,9 @@
 	text-shadow: 1px 1px #000;
 	vertical-align: middle;
 	z-index: 9999;
-	letter-spacing: 3px;
+	
 	line-height: 26px;
+	
 }
 
 .caption{
@@ -88,9 +95,12 @@
 	right: 0;
 	padding-right: 1px;
 	display: none;
-	opacity: 1;
+	opacity: .1;
 	z-index: 2;
-	
+
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: opacity 500ms ease;
 }
 
 /*texto que aparece sobre las imagenes*/
@@ -99,6 +109,8 @@
 	padding-right: 20px;
 	vertical-align: middle;
 	display: table-cell;
+	font-style: normal;    /*para que em coja el tipo de letra*/
+
 }
 
 .post .img-wrapper:hover .caption{
@@ -106,6 +118,9 @@
 	display: block!important;
 }
 
+.caption:hover {
+	opacity: 1;
+}
 
 .caption a span em:hover{
 	color: #fff;
@@ -116,7 +131,7 @@
 .time{
 	position: fixed;
 	right: 0;
-	top: 140px;
+	top: 150px;
 	z-index: 2000;
 
 }
