@@ -1,0 +1,5 @@
+working
+
+- Imágenes deben redimensionarse (según ancho redefinido) sin afectar la proporción de dimension inicial
+
+- Utilizar un css sólo para el calendario de la agenda (calendario.css ? ). El mismo se usa en el Plan con modificaciones hechas en plan.css
