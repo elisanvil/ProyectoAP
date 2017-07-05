@@ -1,0 +1,32 @@
+[
+	{
+		"Fecha":"Lunes 19 Junio",
+		"Eventos":[
+			{"Imagen":"img/geologia-clase-abierta-r.jpg"}
+		]
+	},
+	{
+		"Fecha":"Martes 20 Junio",
+		"Eventos":[
+			{"Imagen":"img/cib-charla-r.png"}
+		]
+	},
+	{
+		"Fecha":"Miercoles 21 Junio",
+		"Eventos":[
+			{"Imagen":"img/cec-aniversario-r.png"}
+		]
+	},
+	{
+		"Fecha":"Jueves 22 Junio",
+		"Eventos":[
+			{"Imagen":"img/curso-bayesiana.png"}
+		]
+	},
+	{
+		"Fecha":"Viernes 23 Junio",
+		"Eventos":[
+			{"Imagen":"img/curso-bayesiana_02.png"}
+		]
+	}
+]
