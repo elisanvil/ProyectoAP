@@ -1,6 +1,13 @@
 .content-block {
-	background-color: white;
 	width: 50%!important;
+
+	background-color: #fff;
+
+	background-clip: border-box;
+    border-style: outset;
+    border-color: #fff;
+    border-width: 1pt;
+    box-shadow: 10px 10px 5px #000;
 }
 
 .containerc {
