@@ -114,3 +114,37 @@
 .caption a span em:hover{
 	color: #fff;
 }
+/*
+.click {
+	position: absolute;
+	right: 0;
+	z-index: 3;
+
+}*/
+
+/*click de las esquinas*/
+.click a{
+	color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 3;
+	padding: 2% 3%;
+	
+	
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: opacity 500ms ease;
+	
+}
+
+.click a:hover{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+}
+
+.click .glyphicon {
+	width: 14px;
+	
+}

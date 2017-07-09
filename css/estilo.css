@@ -118,3 +118,8 @@ footer a {
 footer a:hover {
   color: white;
 }
+.glyphycon {
+  content: "\ea50";
+  font-size: 0.1px;
+  
+}
