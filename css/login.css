@@ -1,0 +1,111 @@
+
+.form-group.last { 
+	margin-bottom:0px; 
+}
+
+.content-block {
+	background-color: white;
+	width: 50%!important;
+}
+
+.containerc {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+.panel-default {
+	opacity: 0.8;
+	margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+	.content-block {
+		width: 80%!important;
+		
+	}
+	.containerc {
+		width: 90%;
+	}
+	p {
+		font-size: .9em;
+	}
+}
+
+#infoc h3 {
+	margin-top: 0!important;
+	padding-top: 1%;
+}
+/*.col-md-12 {
+	background-color: black;
+}
+
+.form-horizontal {
+	background-color: black;
+}*/
+
+
+
+.well-sm {
+	background-color: #fff;
+}
+/*
+fieldset.content-block {
+	background-color: #fff;
+}*/
+
+.btn.btn-success {
+	background-color: #000000 !important;
+	color: #FFFFFF !important;
+	width: 35%;
+	border-color: #000000 !important;
+}
+
+#infoc p {
+	margin: auto;
+	padding:0;
+}
+#infoc {
+	margin: auto;
+	width: 40%;
+}
+#cajainterna {
+	margin-left: auto;
+	margin-right: auto;
+	/*max-height: 130px;*/
+	font-family: 'Narkisim';
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+	padding-top: 4%;
+	
+}
+
+.form-block{
+	margin: auto;
+	padding: 7%;
+	background-color: #fff;
+}
+
+/*span.col-md-offset-2 {
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.form-group span {
+	margin-left: 5%;
+
+}
+
+.form-group {
+	width: 100%;
+	margin-left: 0!important;
+}
+
+input, label, button, a, .panel-footer {
+	font-family: 'Narkisim';
+}
