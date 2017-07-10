@@ -2,36 +2,87 @@
 	{
 		"Fecha":"Lunes 19 Junio",
 		"Eventos":[
-			{"Imagen":"img/geologia-clase-abierta-r.jpg",
-			"Descripcion":"Algo de Geología. FICT"}
+			{"Imagen":"img/geologia-clase-abierta-r.png",
+			"Descripcion":"Clase de Geología - FICT"}
 		]
 	},
 	{
 		"Fecha":"Martes 20 Junio",
 		"Eventos":[
 			{"Imagen":"img/cib-charla-r.png",
-			"Descripcion":"Charla en la Biblioteca. CIB"}
+			"Descripcion":"Charla en la Biblioteca - CIB"}
 		]
 	},
 	{
 		"Fecha":"Miercoles 21 Junio",
 		"Eventos":[
 			{"Imagen":"img/cec-aniversario-r.png",
-			"Descripcion":"Ven a nuestro aniversario. CEC"}
+			"Descripcion":"Aniversario - CEC"}
 		]
 	},
 	{
-		"Fecha":"Jueves 22 Junio",
+		"Fecha":"Domingo 2 Julio",
 		"Eventos":[
-			{"Imagen":"img/curso-bayesiana.png",
-			"Descripcion":"Cursos Bayesiana"}
+			{"Imagen":"img/cisco-peritaje-r.png",
+			"Descripcion":"Curso de Peritaje - CISCO"}
 		]
 	},
 	{
-		"Fecha":"Viernes 23 Junio",
+		"Fecha":"Martes 4 Julio",
 		"Eventos":[
-			{"Imagen":"img/curso-bayesiana_02.png",
-			"Descripcion":"Curso Bayesiana"}
+			{"Imagen":"img/ceproem-trabajo-r.png",
+			"Descripcion":"Conferencia - Entrevista de Trabajo - CEEMP"}
+		]
+	},
+	{
+		"Fecha":"Sábado 9 Julio",
+		"Eventos":[
+			{"Imagen":"img/edcom-linux-r.png",
+			"Descripcion":"Curso de Linux - EDCOM"}
+		]
+	},
+	{
+		"Fecha":"Martes 11 Julio",
+		"Eventos":[
+			{"Imagen":"img/fiec-innovacion-r.png",
+			"Descripcion":"Innovación IOT - IEEE"}
+		]
+	},
+	{
+		"Fecha":"Sábdado 16 Julio",
+		"Eventos":[
+			{"Imagen":"img/edcom-photoshop-r.png",
+			"Descripcion":"Photoshop - EDCOM"}
+		]
+	},
+	{
+		"Fecha":"Lunes 17 Julio",
+		"Eventos":[
+			{"Imagen":"img/ceemp-taller-r.png",
+			"Descripcion":"Inbound Marketing - CEEMP"}
+		]
+	},
+	{
+		"Fecha":"Martes 18 Julio",
+		"Eventos":[
+			{"Imagen":"img/ubep-musica-r.png",
+			"Descripcion":"Dimensión oculta de la música - UBEP"},
+			{"Imagen":"img/fcv-bida-r.png",
+			"Descripcion":"Expo BIDA - FCV"}
+		]
+	},
+	{
+		"Fecha":"Sábado 23 Julio",
+		"Eventos":[
+			{"Imagen":"img/edcom-cableado-r.png",
+			"Descripcion":"Cableado Estructurado - EDCOM"}
+		]
+	},
+	{
+		"Fecha":"Jueves 28 Julio",
+		"Eventos":[
+			{"Imagen":"img/fcsh-taller-escritura-r.png",
+			"Descripcion":"Escritura Científica - FCSH"}
 		]
 	}
 ]
