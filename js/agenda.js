@@ -16,9 +16,11 @@ function cargarAgenda() {
 				var img = $("<img></img>");
 				var a = $('<a></a>');
 								
-				
+				var mes = fecha.split(" ").pop();
+
 				post.attr('class','post');
 				postTitle.attr('class','postTitle col-xs-6 col-sm-4 col-md-3');
+				postTitle.attr('id',mes);
 				postDate.attr('class','postDate');
 				img.attr('src','img/imgDate.png');
 				img.attr('class','hidden-img');
@@ -105,42 +107,52 @@ function showImg(event) {
 	
 }
 
-/*
-$(document).ready(function(){
-	$('.post .postTitle .click a').click(function(){
-		var click = $(this);
-		var phicon = click.find('.glyphicon');
-		click.parent().parent().parent().find('.postImages').toggle(250);
-		var left = '.glyphicon-menu-left';
-		var rigth = '.glyphicon-menu-right';
-		if ( click.find(left).length > 0 ){
-			phicon.removeClass('glyphicon-menu-left');
-			phicon.addClass('glyphicon-menu-right');
-		}else if ( click.find(rigth).length > 0){
-			phicon.removeClass('glyphicon-menu-right');
-			phicon.addClass('glyphicon-menu-left');
+function showImg(event) {
+	var p = $('.post .postTitle .postDate p');
+	for(var i=0; i<p.length; i++){
+		peq = p.eq(i)
+		if ( event.data.dia == peq.text() ) {
+
+			var click = peq.parent().parent().find('.click');
+			var phicon = click.find('.glyphicon');
+			click.parent().parent().find('.postImages').toggle(250);
+			var left = '.glyphicon-menu-left';
+			var rigth = '.glyphicon-menu-right';
+			if ( click.find(left).length > 0 ){
+				phicon.removeClass('glyphicon-menu-left');
+				phicon.addClass('glyphicon-menu-right');
+			}else if ( click.find(rigth).length > 0){
+				phicon.removeClass('glyphicon-menu-right');
+				phicon.addClass('glyphicon-menu-left');
+			}
 		}
+	}
+	
+}
+
+$(document).ready(function(){
+	$('.time ul li a#mes').click(function(){
+		var click = $(this);
+		var content = click.parent().parent().parent().parent();
+		var junio = $('.postList .post #Junio');
+		var julio = $('.postList .post #Julio');
+		
+		junio.find('.postDate p').text('Junio 2017');
+		for(var i=1; i<junio.length; i++){
+			junio.eq(i).hide(100);
+		}
+
+		julio.find('.postDate p').text('Julio 2017');
+		for(var j=1; j<julio.length; j++){
+			julio.eq(j).hide(100);
+		}
+		
 	});
-})
-*/
+});
+
 window.onload=function() {
 
     cargarAgenda();
- /*   $('.click a').on({
-    	click: function(){
-    		var click = $('.post .postTitle .click a');
-		var phicon = click.find('.glyphicon');
-		click.parent().parent().parent().find('.postImages').toggle(250);
-		var left = '.glyphicon-menu-left';
-		var rigth = '.glyphicon-menu-right';
-		if ( click.find(left).length > 0 ){
-			phicon.removeClass('glyphicon-menu-left');
-			phicon.addClass('glyphicon-menu-right');
-		}else if ( click.find(rigth).length > 0){
-			phicon.removeClass('glyphicon-menu-right');
-			phicon.addClass('glyphicon-menu-left');
-		}
-    	}
-    });
-   */ 
+ 
+
 }
