@@ -9,18 +9,56 @@
     color: #36A0FF;
 }
 
-#cajainterna {
+.content-block span {
 	font-family: 'Narkisim';
-	color: #000;
-}
-
-#cajainterna h3{
-	margin-top: 0;
+	color: #fff;
+	padding:5px 50px;
+	background-color: #000;
+	border-color: #000;
+	border-style: solid;
 }
 
 .content-block{
 	max-width: 520px;
 	background-color: #fff;
-	text-align: center;
 	padding: 20px;
+}
+
+.content-block .cd-timeline-img {
+	text-align: center;
+}
+
+.content-block h2, p, a{
+	text-align: center;
+	font-family: 'Narkisim';
+	color: #000;
+}
+
+.content-block p {
+	margin-bottom: 20px;
+}
+
+.content-block img{
+	margin-left: auto;
+	margin-right: auto;
+	width:200px;
+	padding: 10px;
+	opacity: 0.8;
+}
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#cd-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #000;
 }
